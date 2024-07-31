@@ -1,6 +1,7 @@
 package com.crudproject.crud.exceptions;
 
 public class NotFoundException extends RuntimeException {
+
   public NotFoundException() {
     super();
   }

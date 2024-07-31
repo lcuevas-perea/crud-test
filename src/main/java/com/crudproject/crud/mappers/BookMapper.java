@@ -5,17 +5,17 @@ import com.crudproject.crud.repositories.entities.BookEntity;
 
 public class BookMapper {
 
-  public static Book map (BookEntity from){
-    Book to =  new Book();
+  public static Book map(BookEntity from) {
+    Book to = new Book();
     to.setAuthor(from.getAuthor());
     to.setId(from.getId());
     to.setYear(from.getYearof());
     to.setTitle(from.getTitle());
-   return to;
+    return to;
   }
 
-  public static BookEntity map (Book from){
-    BookEntity to =  new BookEntity();
+  public static BookEntity map(Book from) {
+    BookEntity to = new BookEntity();
     to.setAuthor(from.getAuthor());
     to.setId(from.getId());
     to.setYearof(from.getYear());
